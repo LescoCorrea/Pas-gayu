@@ -1,0 +1,93 @@
+.form-container {
+    width: 100%;
+    -webkit-box-shadow: 3px 21px 41px 5px rgba(0, 0, 0, 0.18);
+    -moz-box-shadow: 1px 21px 41px 1px rgba(0, 0, 0, 0.18);
+    box-shadow: 2px 21px 41px 5px rgba(0, 0, 0, 0.18);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.col-bg {
+    background-image: url('../../../public/images/bg-contact1.png');
+    background-size: cover;
+    background-position: center;
+    width: 1170px;
+    height: 326px;
+    flex-shrink: 0;
+    margin-left: -15px;
+    margin-top: 50px;
+}
+
+.form-control {
+    background: #ECEBF6;
+}
+
+.profile-contact {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.link-contact {
+    width: 150px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #9A0000;
+    box-shadow: 0px 10px 20px 0px rgba(255, 103, 83, 0.30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.par-contact {
+    padding: 5.5rem;
+}
+
+.paragraph-contact {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.blog-link {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 5px;
+    width: 130px;
+    height: 35px;
+    /*border: 1px solid #971200;*/
+    border-radius: 50px;
+    text-decoration: none;
+    color: #ECEBF6;
+}
+
+.blog-link:hover {
+    text-decoration: none;
+    color: #FFF;
+}
+
+@media screen and (max-width: 900px) {
+    .col-bg {
+        width: 400px;
+        margin: 14px;
+        margin-top: -50px;
+    }
+    .paragraph-contact {
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;  
+    }
+    .par-contact {
+        padding: 4rem;
+    }
+}
